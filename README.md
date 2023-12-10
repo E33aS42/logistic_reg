@@ -1,5 +1,5 @@
 # logistic_reg
-An exercise to mathematically implement a logistic regression models and explore methods to decrease computational time (bonus).
+An exercise to mathematically implement a logistic regression model and explore methods to decrease computational time (bonus).
 
 # Introduction
 Based on a dataset of the notes obtained by the students of Hogwarts School of Witchcraft and Wizardry, I built a logistic regression that could classify to which of the 4 houses each student belongs to in function of their notes.
