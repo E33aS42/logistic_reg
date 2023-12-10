@@ -20,7 +20,7 @@ This project was done in 3 parts:
 ![pred-reg](https://github.com/E33aS42/logistic_reg/assets/66993020/b615fc35-9d82-4d51-a062-1cab1aa10cbc)
 
 4. Optimization:
-Applying Loss momentum is by far the most efficient algorithm as it reduces the number of iterations by 10 and the computational time by 5.
+Applying Loss momentum is by far the most efficient algorithm as it reduces the number of iterations by 10 and the computational time by 7 compared to the basic logistic regression.
 
 ![loss_with_batch](https://github.com/E33aS42/logistic_reg/assets/66993020/3d1097e8-b025-4b85-ba0c-927bdc626c39)
 ![loss_with_minibatch](https://github.com/E33aS42/logistic_reg/assets/66993020/a032433a-95d4-414e-b094-d702eb5d765b)
