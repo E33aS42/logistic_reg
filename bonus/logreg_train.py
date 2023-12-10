@@ -224,7 +224,7 @@ if __name__ == "__main__":
 
             # 4.b training
             models[i] = MyLR(np.ones((X_tr.shape[1] + 1, 1)),
-                             alpha=1e-1, max_iter=100)
+                             alpha=1e-1, max_iter=400)
             if GD == "batch":
                 x_step, loss_time = models[i].fit_(X_tr, y_[i])
             elif GD == "sgd":
@@ -262,7 +262,7 @@ if __name__ == "__main__":
                      label=houses[i-1], linewidth=2, c=colors[i-1])
         time_end = time.time()
         print("execution time: ", round(time_end - time_init, 2))
-        fig.suptitle("Loss over time\n" + "Execution time: " +
+        fig.suptitle(GD + "\nLoss over time\n" + "Execution time: " +
                      str(round(time_end - time_init, 2)) + "s")
         plt.grid()
         plt.xlabel('Iterations')
@@ -299,7 +299,7 @@ if __name__ == "__main__":
                     k += 1
         fig[k - 1].legend(bbox_to_anchor=(1.04, 1), borderaxespad=0)
         plt.suptitle("Scatter plots with the dataset and the final prediction of the model\n"
-                     + "Percentage of correct predictions for train data:  " + str(round(100 * MyLR.score_(y_pred_tr, y_train), 1)) + "%\n" + "labels: " + str(labels))
+                     + "Percentage of correct predictions:  " + str(round(100 * MyLR.score_(y_pred_tr, y_train), 1)) + "%\n" + "labels: " + str(labels))
         plt.show()
 
         # 8. Save models
