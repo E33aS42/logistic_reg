@@ -11,13 +11,17 @@ This project was done in 3 parts:
 
 # Results
 1. 3 relevant and uncorrelated features were identified: ['Astronomy', 'Ancient Runes', 'Charms']
+   
 ![histograms](https://github.com/E33aS42/logistic_reg/assets/66993020/9c467e84-5ff9-4fb9-8182-c747be78a9ef)
 ![pair_plot_5](https://github.com/E33aS42/logistic_reg/assets/66993020/919e3673-d524-4d27-94fc-0b6213e3f9aa)
 
-2. Classification results:
+3. Classification results:
+   
 ![pred-reg](https://github.com/E33aS42/logistic_reg/assets/66993020/b615fc35-9d82-4d51-a062-1cab1aa10cbc)
 
-3. Optimization:
+4. Optimization:
+Applying Loss momentum is by far the most efficient algorithm as it reduces the number of iterations by 10 and the computational time by 5.
+
 ![loss_with_batch](https://github.com/E33aS42/logistic_reg/assets/66993020/3d1097e8-b025-4b85-ba0c-927bdc626c39)
 ![loss_with_minibatch](https://github.com/E33aS42/logistic_reg/assets/66993020/a032433a-95d4-414e-b094-d702eb5d765b)
 ![loss_with_sgd](https://github.com/E33aS42/logistic_reg/assets/66993020/c0e97bbd-a431-479d-a66e-e09d1df4f051)
