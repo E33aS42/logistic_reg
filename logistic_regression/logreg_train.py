@@ -282,7 +282,7 @@ if __name__ == "__main__":
                     k += 1
         fig[k - 1].legend(bbox_to_anchor=(1.04, 1), borderaxespad=0)
         plt.suptitle("Scatter plots with the dataset and the final prediction of the model\n"
-                     + "Percentage of correct predictions for train data:  " + str(round(100 * MyLR.score_(y_pred_tr, y_train), 1)) + "%\n" + "labels: " + str(labels))
+                     + "Percentage of correct predictions:  " + str(round(100 * MyLR.score_(y_pred_tr, y_train), 1)) + "%\n" + "labels: " + str(labels))
         plt.savefig("bonus1.png")
         plt.show()
 
