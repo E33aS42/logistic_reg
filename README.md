@@ -10,3 +10,11 @@ This project was done in 3 parts:
 3. Implementation of other optimization algorithms (stochastic gradient descent, minibatch GD, loss momentum, SGD+loss momentum) and comparison of the gain in computational time.
 
 # Results
+1. 3 relevant and uncorelated features were identified:
+![histograms](https://github.com/E33aS42/logistic_reg/assets/66993020/9c467e84-5ff9-4fb9-8182-c747be78a9ef)
+![pair_plot_5](https://github.com/E33aS42/logistic_reg/assets/66993020/919e3673-d524-4d27-94fc-0b6213e3f9aa)
+
+2. Classification results:
+![predictions_98%](https://github.com/E33aS42/logistic_reg/assets/66993020/01e5492e-708d-45d9-996e-d481a4d063b4)
+
+3. Otimization:
