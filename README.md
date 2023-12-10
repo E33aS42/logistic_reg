@@ -7,7 +7,7 @@ Based on a dataset of the notes obtained by the students of Hogwarts School of W
 This project was done in 3 parts:
 1. A data analysis helped identify which features to keep among the set of 20 different features.
 2. A logitistic regression model was trained on our training set and could reach an accuracy above 98% on a provided test set .
-3. Implementation of other optimization algorithms (stochastic gradient descent, minibatch GD, loss momentum, SGD+loss momentum) and comparison of the gain in computational time.
+3. Implementation of other optimization algorithms (stochastic gradient descent, minibatch GD, momentum, SGD+momentum) and comparison of the gain in computational time.
 
 # Results
 1. 3 relevant and uncorrelated features were identified: ['Astronomy', 'Ancient Runes', 'Charms']
@@ -20,7 +20,7 @@ This project was done in 3 parts:
 ![pred-reg](https://github.com/E33aS42/logistic_reg/assets/66993020/b615fc35-9d82-4d51-a062-1cab1aa10cbc)
 
 4. Optimization:
-Applying Loss momentum is by far the most efficient algorithm as it reduces the number of iterations by 10 and the computational time by 7 compared to the basic logistic regression.
+Applying momentum is by far the most efficient algorithm as it reduces the number of iterations and computational time by 10 compared to the basic logistic regression.
 
 ![loss_with_batch](https://github.com/E33aS42/logistic_reg/assets/66993020/3d1097e8-b025-4b85-ba0c-927bdc626c39)
 ![loss_with_minibatch](https://github.com/E33aS42/logistic_reg/assets/66993020/a032433a-95d4-414e-b094-d702eb5d765b)
